@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/main_activity__email_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="recipient email address"/>
+
+    <EditText
+        android:id="@+id/main_activity__email_subject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="email subject"/>
+
+    <EditText
+        android:id="@+id/main_activity__email_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="email message"/>
+
+    <Button
+        android:id="@+id/main_activity__send_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="send"/>
+
+</LinearLayout>

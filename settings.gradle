@@ -1,0 +1,3 @@
+rootProject.name='AndroidEmailSender'
+include ':app'
+include ':data'
