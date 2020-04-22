@@ -8,7 +8,10 @@ In order to use the lightweight JavaMail port of the JavaMail port API in your A
 
 The next step is to create an email sender object. Thats will primarily contain the logic to send the email.
 
-*Note: And don't forget to add the below line in your manifest <uses-permission android:name=”android.permission.INTERNET” />*
+*Note: And don't forget to add the below line in your manifest*
+```xml
+<uses-permission android:name="android.permission.INTERNET"/>
+```
 
 <img src="/img/img_2020-04-22 12.28.57.jpeg" width="250">
 
